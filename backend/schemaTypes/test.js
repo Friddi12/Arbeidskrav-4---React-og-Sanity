@@ -3,8 +3,8 @@ const test = {
     title: 'TestData',
     type: 'document',
     fields: [
-        {name: 'test', title: 'Testdata', type: 'string'},
-        {name: 'testimage', title: 'TestBibilde', type: 'image'}
+        {name: 'testname', title: 'Testnavn', type: 'string'},
+        {name: 'testimage', title: 'TestBilde', type: 'image'}
     ]
 } 
 
