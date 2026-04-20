@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div> 
+      <header>HEADER TEMPLATE GRUPPE 10</header>
       <AlexComponent />
       <JakawProfil/>
       <SimenProfil />
