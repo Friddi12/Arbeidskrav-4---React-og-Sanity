@@ -3,7 +3,7 @@ export default function(){
 
 
     return(
-        <article>
+        <article id="alex-component">
             <h2>Fridvin Alex Fridriksson</h2>
             <img src="alexbilde.gif" alt="Bilde av Alex" />
             <a href="mailto:fridvinf@hiof.no">Send meg E-post!</a>
