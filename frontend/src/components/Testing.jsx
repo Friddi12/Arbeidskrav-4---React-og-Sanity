@@ -6,7 +6,7 @@ export default function Testing(){
 
     useEffect(() => {
       async function fetchAll() {
-        const allProds = await client.fetch("*[_type == 'test']{_id, testname, 'imageURL': testimage.asset->url}")
+        const allProds = await client.fetch("*[_type == 'oldreqs']{_id, reqname, reqdesc}")
         setSanityProducts(allProds)
       }
 
@@ -14,20 +14,17 @@ export default function Testing(){
     }, [])
 
     return(
-        <main>
+        <section>
+            <h3>Arbeidskrav i UIN</h3>
             {sanityProducts?.map((product) => (
-              <div key={product._id} style={{ marginBottom: '20px', borderBottom: '1px solid #eee' }}>
+              <article key={product._id}>
           
-              <h2>{product.testname}</h2>
+                <h2>{product.reqname}</h2>
+                <p>{product.reqdesc}</p>
 
-            {product.imageURL ? (
-              <img src={product.imageURL} alt={product.testname} style={{ maxWidth: '300px', height: 'auto' }} />
-              ) : (
-              <p>Ingen Bilde</p>
-              )}
           
-          </div>
+              </article>
         ))}
-        </main>
+        </section>
     )
 }

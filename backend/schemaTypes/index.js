@@ -1,2 +1,2 @@
-import test from "./test"
-export const schemaTypes = [test]
+import gamlearbeidskrav from "./gamlearbeidskrav"
+export const schemaTypes = [gamlearbeidskrav]

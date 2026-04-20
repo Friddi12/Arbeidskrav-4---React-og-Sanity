@@ -1,0 +1,16 @@
+#alex-component{
+  width: 320px;
+  text-align: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+
+  border: solid white 2px;
+  border-radius: 10px;
+
+  img{
+    max-width: 300px;
+  }
+
+}
