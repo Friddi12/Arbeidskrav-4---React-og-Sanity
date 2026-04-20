@@ -1,5 +1,5 @@
 #alex-component{
-  width: 320px;
+
   text-align: center;
   align-items: center;
 
@@ -11,6 +11,11 @@
 
   img{
     max-width: 300px;
+  }
+
+  a{
+    border: solid white 2px;
+    background-color: blue;
   }
 
 }
