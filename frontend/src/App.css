@@ -14,3 +14,17 @@
   }
 
 }
+
+
+.jakaw-profil {
+ border: 10px solid rgb(71, 67, 67);
+ padding: 1rem;
+ border-radius: 12px;
+ background-color: rgb(18, 20, 21);
+}
+
+.jakaw-profil img{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+}
