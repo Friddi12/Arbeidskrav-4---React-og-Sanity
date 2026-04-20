@@ -9,7 +9,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
+    <>
+    <header>
+      Gruppe UIN_10
+    </header>
+
+    <main>
     <SimenProfil />
+    </main>
+    </>
   )
 }
 
