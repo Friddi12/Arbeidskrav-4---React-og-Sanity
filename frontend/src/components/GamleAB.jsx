@@ -1,7 +1,7 @@
 import client from '../helpers/client'
 import { useEffect, useState } from 'react'
 
-export default function Testing(){
+export default function GamleAB(){
         const [sanityProducts, setSanityProducts] = useState(null)
 
     useEffect(() => {
