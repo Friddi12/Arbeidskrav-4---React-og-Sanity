@@ -80,3 +80,21 @@
 
 }
 
+/* Gamle arbeidskrav kort */
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+
+  h3{
+    width: 100%;
+  }
+}
+
+.gamleab-kort{
+  width: 50%;
+
+  
+}

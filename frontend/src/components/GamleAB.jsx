@@ -17,7 +17,7 @@ export default function GamleAB(){
         <section>
             <h3>Arbeidskrav i UIN</h3>
             {sanityProducts?.map((product) => (
-              <article key={product._id}>
+              <article key={product._id} className='gamleab-kort'>
           
                 <h2>{product.reqname}</h2>
                 <p>{product.reqdesc}</p>

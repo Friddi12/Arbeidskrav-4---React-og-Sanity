@@ -1,4 +1,3 @@
-import './SimenProfil.css'
 export default function SimenProfil() {
     return (
         <article id='simen-profil'>
