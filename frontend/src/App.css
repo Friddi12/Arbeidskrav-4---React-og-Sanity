@@ -1,3 +1,4 @@
+/* ----Komponent til Fridvin---- */
 #alex-component{
 
   text-align: center;
@@ -27,7 +28,7 @@
 
 }
 
-
+/* ----Komponent til Jakaw----- */
 .jakaw-profil {
  border: 10px solid rgb(71, 67, 67);
  padding: 1rem;
@@ -41,6 +42,7 @@
    object-fit: cover;
 }
 
+/* ----Komponent til Simen---- */
 #simen-profil{
     display:flex;
     flex-direction: column;
