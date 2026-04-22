@@ -65,32 +65,29 @@ header{
 
 
   img{
-    width:250px;
-    height:400px;
+    margin-top: 20px;
+    width:350px;
+    height:350px;
     border-radius: 10px;
+    border: 2px #fff solid;
   }
 
   h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
   }
 
   a{
     font-size: 1.5 rem;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     background-color: #705317;
     border-radius: 8px;
     text-decoration: none;
-    display: inline-block;
-  }
-
-  a:hoover{
-  }
-  p{
-    font-size: 1.2 rem;
-    color: #ffffff;
-    padding: 0.5rem 1rem;
+    display: block;
+    width: 250px;
+    margin: 5px auto;
+    border: 2px #fff solid;
   }
 
 }
