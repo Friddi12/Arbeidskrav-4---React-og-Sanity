@@ -1,3 +1,16 @@
+/* ----Header komponent---- */
+header{
+  height: 200px;
+  width: 100%;
+  align-content: center;
+
+  background-color: white;
+
+  h1{
+    color: black;
+  }
+}
+
 /* ----Komponent til Fridvin---- */
 #alex-component{
 
@@ -21,7 +34,9 @@
     border: solid rgb(0, 0, 0) 2px;
     background-color: rgb(255, 255, 255);
     color: black;
+  }
 
+  p{
     padding: 0.2rem;
     margin: 0.2rem;
   }

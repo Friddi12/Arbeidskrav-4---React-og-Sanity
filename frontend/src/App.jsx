@@ -3,13 +3,14 @@ import AlexComponent from './components/AlexComponent'
 import JakawProfil from './components/JakawProfil'
 import SimenProfil from './components/SimenProfil' 
 import './App.css'
+import Header from './components/Header'
  
 
 function App() {
 
   return (
     <div> 
-      <header>HEADER TEMPLATE GRUPPE 10</header>
+      <Header />
       <AlexComponent />
       <JakawProfil/>
       <SimenProfil />
