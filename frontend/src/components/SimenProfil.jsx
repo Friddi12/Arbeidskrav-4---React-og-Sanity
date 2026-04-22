@@ -1,7 +1,7 @@
 import './SimenProfil.css'
 export default function SimenProfil() {
     return (
-        <article>
+        <article id='simen-profil'>
         <img src="/Mitt-Bilde-2.jpeg" alt="Simen-Profil" />
         <h2>
                 Simen
