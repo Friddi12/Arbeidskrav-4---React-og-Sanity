@@ -6,7 +6,7 @@ export default function GamleAB(){
 
     useEffect(() => {
       async function fetchAll() {
-        const allProds = await client.fetch("*[_type == 'oldreqs']{_id, reqname, reqdesc}")
+        const allProds = await client.fetch("*[_type == 'oldreqs'] | order(reqorder asc) {_id, reqname, reqdesc}")
         setSanityProducts(allProds)
       }
 
