@@ -4,7 +4,7 @@ header{
   width: 100%;
   align-content: center;
 
-  background-color: white;
+  background: linear-gradient(lightgray, gray);
 
   h1{
     color: black;
@@ -28,6 +28,7 @@ header{
 
   img{
     max-width: 300px;
+    margin: 0.2rem;
   }
 
   a{
